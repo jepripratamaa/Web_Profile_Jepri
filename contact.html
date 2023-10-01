@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profile</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Profile.</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="porto.html">Portofolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section >
+        <div class="container">
+            <div class="profile">
+                <img src="Foto/pp2.jpeg" width="100" height="100" class="foto" alt="yaelahh.." />
+                <div class="fullname">Jepri Pratama</div>
+                <div class="role">Mahasiswa
+                </div>
+                <div class="about">My Social Media Contact</div>
+                <div class="link">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/jepri.pratama_/"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/jepripratama/"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <button class="kontak" onclick="hubungi()">Contact Me</button>
+            </div>
+        </div>
+        <script>
+            function hubungi() {
+                console.log("chat whatsapp running...");
+                open("https://wa.me/6282269057924?text=Halo Kak")
+            }
+        </script>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 - Jepri Pratama</p>
+    </footer>
+</body>
+</html>
